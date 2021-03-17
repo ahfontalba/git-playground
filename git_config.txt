@@ -1,0 +1,38 @@
+GIT CONFIGURATION TYPES
+
+Git uses a series of configuration files to determine non-default behavior.
+
+1.  System-wide configuration
+    [path]/etc/gitconfig file -> ~/Git/mingw64/etc/gitconfig
+    - pass the --system option to git to write to and read from this file
+
+2.  Global configuration
+    ~/.gitconfig (or ~/.config/git/config) file -> ~/.gitconfig
+    - pass the --global option to git to write to and read from this file
+
+3.  Local configuration (specific to a repository)
+    .git/config
+
+
+GIT CONFIGURATION OPTIONS
+
+1.  client-side
+2.  server-side
+
+Note - list all the options your version of Git recognises, run:
+$ man git-config  # TODO: doen't work
+
+https://git-scm.com/docs/git-config
+https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+
+
+GIT BASIC CLIENT CONFIGURATION
+
+1.  core.editor
+    Sets up a custom editor, useful for adding complex commit messages or for carrying out interactive rebases
+    $ git config --global core.editor notepad++
+
+2. commit.template
+    tell Git what file to use as the default initial message for a commit
+    e.g. a template file at ~/.gitmessage.txt
+    $ git config --global commit.template ~/.gitmessage.txt

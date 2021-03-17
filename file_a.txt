@@ -9,7 +9,8 @@ git push -u origin main
 
 
 ---create a new repository on the command line---
-echo "# git-playground" >> README.md
+
+echo "# git-playground" > README.md
 git init
 git add README.md
 git commit -m "first commit"

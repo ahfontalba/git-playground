@@ -5,9 +5,9 @@ $ git checkout -b my-feature  --- creates and checkouts a new branch
 
 $ echo "This is my new feature" > feature.txt ---creates a text file with some text
 
-$ git push --set-ipstream origin my-feature ---push the current branch and set the remote as upstream
+$ git push --set-upstream origin my-feature ---push the current branch and set the remote as upstream
 
 $ git fetch
 $ git add --all
 $ git log --oneline
-git remove <file_name>
+$ git remove <file_name>
