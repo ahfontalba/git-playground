@@ -1,4 +1,4 @@
-GIT CONFIGURATION TYPES
+----------------------------- GIT CONFIGURATION TYPES ----------------------------- 
 
 Git uses a series of configuration files to determine non-default behavior.
 
@@ -14,7 +14,7 @@ Git uses a series of configuration files to determine non-default behavior.
     .git/config
 
 
-GIT CONFIGURATION OPTIONS
+----------------------------- GIT CONFIGURATION OPTIONS ----------------------------- 
 
 1.  client-side
 2.  server-side
@@ -26,7 +26,7 @@ https://git-scm.com/docs/git-config
 https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
 
 
-GIT BASIC CLIENT CONFIGURATION
+----------------------------- GIT BASIC CLIENT CONFIGURATION ----------------------------- 
 
 1.  core.editor
     Sets up a custom editor, useful for adding complex commit messages or for carrying out interactive rebases
@@ -38,3 +38,12 @@ GIT BASIC CLIENT CONFIGURATION
     $ git config --global commit.template ~/.gitmessage.txt
     then
     $ git commit will cause the default editor to open
+
+    --> notepad++ launches then the console prints
+        'Aborting commit; you did not edit the message
+
+3. core.excludefile
+    kind of --global .gitignore
+    create a ~/.gitignore_global file
+
+    

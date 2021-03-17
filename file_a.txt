@@ -2,38 +2,3 @@ git-playground
 
 Git Repo
 https://github.com/ahfontalba/git-playground.git
-
-
-git remote add origin https://github.com/ahfontalba/git-playground.git
-git push -u origin main
-
-
----create a new repository on the command line---
-
-echo "# git-playground" > README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/ahfontalba/git-playground.git
-git push -u origin main
-
-
----push an existing repository from the command line---
-git remote add origin https://github.com/ahfontalba/git-playground.git
-git branch -M main
-git push -u origin main
-
----list all remote branches---
-git branch --all
-
----get latest changes---
-git fetch is the same as git pull but does not automatically update your local master branch
-with the changes it has fetched
-
----create and checkout a branch---
-git checkout -b my-feature
-
----check curent branch
-git branch
-

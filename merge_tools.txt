@@ -1,0 +1,18 @@
+
+Three categories of merge tools:
+
+•   Dedicated tools like kdiff3 (http://kdiff3.sourceforge.net/)
+    -   You can integrate this with the command line by
+        declaring it as your merge tool in the global git config 
+        (assuming kdiff3 is on your PATH):
+
+            $ git config --global merge.tool kdiff3
+        
+        and then running the following whenever you encounter a merge conflict
+            $ git mergetool
+
+•   Tools included as part of a Git visualisation suite like
+    GitKraken (http://kdiff3.sourceforge.net/)
+
+•   Tools included as part of an IDE like IntelliJ
+
