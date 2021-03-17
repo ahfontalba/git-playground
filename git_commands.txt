@@ -1,0 +1,3 @@
+
+---create a text file with some text
+$ echo "This is my new feature" > feature.txt

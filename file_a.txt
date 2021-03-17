@@ -22,3 +22,17 @@ git push -u origin main
 git remote add origin https://github.com/ahfontalba/git-playground.git
 git branch -M main
 git push -u origin main
+
+---list all remote branches---
+git branch --all
+
+---get latest changes---
+git fetch is the same as git pull but does not automatically update your local master branch
+with the changes it has fetched
+
+---create and checkout a branch---
+git checkout -b my-feature
+
+---check curent branch
+git branch
+
