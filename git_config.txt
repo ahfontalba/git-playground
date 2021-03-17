@@ -36,3 +36,5 @@ GIT BASIC CLIENT CONFIGURATION
     tell Git what file to use as the default initial message for a commit
     e.g. a template file at ~/.gitmessage.txt
     $ git config --global commit.template ~/.gitmessage.txt
+    then
+    $ git commit will cause the default editor to open
