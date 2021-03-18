@@ -8,5 +8,3 @@ There are two groups of these hooks: client-side and server-side.
 -   Server-side hooks run on network operations such as receiving pushed commits.
 
 https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks
-
-
