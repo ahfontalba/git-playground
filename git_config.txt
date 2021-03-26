@@ -1,4 +1,10 @@
------------------------------ GIT CONFIGURATION TYPES ----------------------------- 
+
+$ git config --global user.name "My name"
+$ git config --global user.email my.name@myorg.com
+
+$ git config --list
+
+---------------------------- GIT CONFIGURATION TYPES ----------------------------- 
 
 Git uses a series of configuration files to determine non-default behavior.
 

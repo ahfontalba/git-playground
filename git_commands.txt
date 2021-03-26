@@ -10,6 +10,7 @@ $ git push --set-upstream origin my-feature ---push the current branch and set t
 $ git fetch
 $ git add --all
 $ git log --oneline
+$ git show                         ---shows the most recent commit on the current branch
 $ git remove <file_name>
 
 git remote add origin https://github.com/ahfontalba/git-playground.git
@@ -25,6 +26,12 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/ahfontalba/git-playground.git
 git push -u origin main
+
+
+git push --set-upstream origin main  -- set-upstream is only needed the first time to push to a remote repo
+
+
+$ git remote --verbose   --- displays the repo url and the the name of the main remote repo: normally origin
 
 
 ---push an existing repository from the command line---
@@ -45,3 +52,10 @@ git checkout -b my-feature
 ---check curent branch
 git branch
 
+
+-- delete a local branch
+$ git branch -d <my_branch>
+$ git branch -D <my_branch>  --- deletesa branch despite having uncommitted changes
+
+-- delete a remote branch
+$ git push origin --delete <remote-branch-name>
